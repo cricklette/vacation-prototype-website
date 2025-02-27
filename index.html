@@ -3,40 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taniti Stays</title>
+    <title>Taniti</title>
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
 
         <h1>Taniti</h1>
-        <ul class="header-links">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/entertainment.html">Entertainment</a></li>
-            <li><a href="/sightseeing.html">Sightseeing</a></li>
-            <li><a href="/cuisine.html">Cuisine</a></li>
-            <li><a href="/lodging.html">Lodging</a></li>
-            <li><a href="/transportation.html">Transportation</a></li>
-        </ul>
-
+        <div class="nav-wrapper">
+            <ul class="header-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./entertainment.html">Entertainment</a></li>
+                <li><a href="./sightseeing.html">Sightseeing</a></li>
+                <li><a href="./cuisine.html">Cuisine</a></li>
+                <li><a href="./lodging.html">Lodging</a></li>
+                <li><a href="./transportation.html">Transportation</a></li>
+            </ul>
+            <div class="searchbar">
+                <input id="searchinput" type="text" placeholder="Looking for something?">
+                <button id="searchbtn" type="submit">Search</button>
+            </div>
+        </div>
     </header>
 
     <main>
-
-        <section class="background-image">
-
-            <!-- Icon Links -->
+         <!-- Side Navigation Bar -->
+         <nav class="side-nav">
             <div class="icon-link">
-                <a href="/entertainment.html">
+                <a href="./entertainment.html">
                     <img src="./images/icons/laugh.png" alt="Entertainment Icon">
                     <p>Entertainment</p>
                 </a>
             </div>
-
+            <div class="icon-link">
+                <a href="./sightseeing.html">
+                    <img src="./images/icons/mountain.png" alt="Sightseeing Icon">
+                    <p>Sightseeing</p>
+                </a>
+            </div>
+            <div class="icon-link">
+                <a href="./cuisine.html">
+                    <img src="./images/icons/restaurant.png" alt="Cuisine Icon">
+                    <p>Cuisine</p>
+                </a>
+            </div>
+            <div class="icon-link">
+                <a href="./lodging.html">
+                    <img src="./images/icons/home.png" alt="Lodging Icon">
+                    <p>Lodging</p>
+                </a>
+            </div>
+            <div class="icon-link">
+                <a href="./transportation.html">
+                    <img src="./images/icons/infrastructure.png" alt="Transportation Icon">
+                    <p>Transportation</p>
+                </a>
+            </div>
+        </nav>
+        <section class="background-image">
+            <h1 class="welcome">Where Your Tanitian Journey Begins...</h1>
         </section>
         <section class="content">
-            <h2>Taniti</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, magnam! Unde eius alias deleniti libero exercitationem facilis reprehenderit, illum eveniet hic vel id iste ab consequuntur. Numquam accusamus incidunt odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ab quae, dicta ipsum ullam nemo minus explicabo sit temporibus velit reprehenderit excepturi similique totam autem, recusandae tempora. Quas, tempora culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis numquam veniam maiores consequuntur voluptas non repellat necessitatibus accusantium, officia harum eos, laudantium quos pariatur. Quia quam dolorum nisi aut delectus?</p>
+            <h2>About</h2>
+            <p>Taniti is a small, tropical island in the Pacific. While the island has an area of less than 500 square miles, the terrain is varied and includes both sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, and a mountainous interior that includes a small, active volcano. Taniti has an indigenous population of about 20,000. Until a recent increase in tourism, most the Tanitian economy was dominated by fishing or agriculture. </p>
         </section>
 
     </main>
@@ -44,8 +73,8 @@
     <footer>
 
         <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/faq.html">FAQ</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
             <li><a href="./sitemap.html">Sitemap</a></li>
         </ul>
         
