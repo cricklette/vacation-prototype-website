@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         cuisine: ["food", "restaurant", "cafe", "diner", "bistro", "pub", "bar", "eatery", "buffet", "cuisine"],
         lodging: ["hotel", "motel", "inn", "hostel", "resort", "bed and breakfast", "guesthouse", "lodge", "cabin", "villa"],
         transportation: ["car", "bus", "train", "taxi", "bike", "scooter", "subway", "tram", "ferry", "plane", "cruise"],
-        faq: ["help", "support", "question", "info", "information", "guide", "faq", "assistance", "service", "contact"]
+        faq: ["help", "support", "question", "info", "information", "guide", "faq", "assistance", "service", "contact"],
+        index: ["home", "about", "back"]
     };
 
     var searchButton = document.getElementById('searchbtn');
