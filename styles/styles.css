@@ -194,6 +194,7 @@ h2{
     height: auto;
     border-radius: 20px;
     margin-left: 20px;
+    object-fit: cover;
 }
 
 footer {
