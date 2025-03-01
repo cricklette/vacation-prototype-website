@@ -4,3 +4,5 @@
 3. When do public buses run on the island?
 4. Where can you go to find more information about Taniti?
 5. What is the indigenous population of Taniti?
+
+Thanks for checking out my project C:
