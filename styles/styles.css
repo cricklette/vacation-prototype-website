@@ -52,13 +52,19 @@ h1 {
     color: var(--ocean-blue-dark);
     text-decoration: none;
     padding: 10px;
-    
 }
+
 .header-links a:hover {
     color: var(--ocean-blue-light);
     border-bottom: solid 2px var(--ocean-blue-light);
     transition: color 0.2s ease-in-out;
 }
+
+.header-links a.selected {
+    color: var(--ocean-blue-light);
+    border-bottom: solid 2px var(--ocean-blue-light);
+}
+
 
 .searchbar {
     display: flex;
@@ -148,6 +154,9 @@ main {
     background-color: var(--ocean-blue);
     transition: all 0.1s ease;
 }
+.icon-link.selected{
+    background-color: var(--ocean-blue);
+}
 
 .icon-link a {
     color: white;
@@ -228,4 +237,8 @@ footer a {
 footer a:hover {
     color: white;
     transition: all 0.2s ease;
+}
+footer a.selected {
+    color: white;
+    border-bottom: solid 2px var(--ocean-blue-light);
 }

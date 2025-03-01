@@ -31,4 +31,54 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         searchInput.value = ''; 
     });
+
+
+
+
+    let currentPage = window.location.pathname.split('/').pop().split('.')[0];
+    console.log(currentPage);
+    
+    let links = document.querySelectorAll('.header-links a');
+    links.forEach(link => {
+        if (link.textContent.toLowerCase() == currentPage) {
+            link.classList.add('selected');
+            console.log(`added selected to ${link.textContent}`);
+        }
+        else if(link.textContent.toLowerCase() == 'home' && currentPage == 'index') {
+            link.classList.add('selected');
+        }
+        else {
+            link.classList.remove('selected');
+        }
+    });
+
+    let footerLinks = document.querySelectorAll('footer a');
+    footerLinks.forEach(link => {
+        if (link.textContent.toLowerCase() == currentPage) {
+            link.classList.add('selected');
+        }
+        else if(link.textContent.toLowerCase() == 'home' && currentPage == 'index') {
+            link.classList.add('selected');
+        }
+        else if(link.textContent.toLowerCase() == 'sitemap and references' && currentPage == 'sitemap') {
+            console.log("sitemap")
+            link.classList.add('selected');
+        }
+        else {
+            link.classList.remove('selected');
+        }
+    });
+
+    let iconLinks = document.querySelectorAll('.icon-link');
+    iconLinks.forEach(link => {
+        let text = link.querySelector('p').textContent.toLowerCase();
+        if (text == currentPage) {
+            link.classList.add('selected');
+        } else {
+            link.classList.remove('selected');
+        }
+    });
 });
+    
+
+
